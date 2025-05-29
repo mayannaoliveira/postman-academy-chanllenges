@@ -1,4 +1,4 @@
-[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) 
+[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![postbot](https://img.shields.io/badge/Postbot-9B7EBD.svg?style=for-the-badge&logo=Postman&logoColor=white) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) 
 
 Repository to save my path in learning modules of Self-Study Learning in site [Postman Academy](https://academy.postman.com/).
 
@@ -90,6 +90,7 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
     <a href="https://discordapp.com/users/728043170226503721">
     <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px"/>
     <img alt="badge1" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px"/>
+  <img alt="badge1" src="/badges/certifed1.png" width="100px"/>
     </a>
 </p>
  
