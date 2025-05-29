@@ -11,9 +11,11 @@ Explore Postman's requests, environments, and collections to manage API interact
    "galaxy": "Milky Way"
 }
 ```
-4. Send the request and check the OK result.
+4. Send the request and check the OK result;
+
 ![mission2](asserts/mission2.png)
-5. submit collection
+
+5. submit collection;
 5. Copy the `GET submit collection` to Planets collection;
 6. Insert the `Postman API Key` in variable `{{environmentUid}}`;
 7. Send the requet and check the result.

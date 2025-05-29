@@ -176,8 +176,9 @@ Once you are done with all of your missions, submit your work and earn a badge f
 
 <p align="left">
   <a href="https://api.badgr.io/public/collections/3daf805234a34771bcb754fcee8091a5"> 
-    <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px" alt="badge1"/>
-    <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px" alt="badge2"/>
+    <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px"/>
+    <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px"/>
+    <img alt="badge3" src="/badges/10+Missions+Badge.png" width="100px"/>
     </a>
 </p>
 
