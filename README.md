@@ -89,8 +89,8 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
 <p align="left">
     <a href="https://discordapp.com/users/728043170226503721">
     <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px"/>
-    <img alt="badge1" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px"/>
-  <img alt="badge1" src="/badges/certifed1.png" width="100px"/>
+    <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px"/>
+  <img alt="certifed1" src="/badges/certifed1.png" width="100px"/>
     </a>
 </p>
  
