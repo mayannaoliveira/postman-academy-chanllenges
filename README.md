@@ -101,15 +101,15 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
       <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
     </a>
   <a href="/badges/certified2.png"> 
-      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+      <img alt="certifed2" src="/badges/certified2.png" width="300px"/> 
     </a>
   <a href="/badges/certified3.png"> 
-      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+      <img alt="certifed1" src="/badges/certified3.png" width="300px"/> 
     </a>
   <a href="/badges/certified4.png"> 
-      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+      <img alt="certifed1" src="/badges/certified4.png" width="300px"/> 
     </a>
   <a href="/badges/certified5.png"> 
-      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+      <img alt="certifed1" src="/badges/certified5.png" width="300px"/> 
     </a>
 </p>
