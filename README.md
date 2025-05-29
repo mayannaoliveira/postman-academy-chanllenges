@@ -1,4 +1,5 @@
-[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![postbot](https://img.shields.io/badge/Postbot-9B7EBD.svg?style=for-the-badge&logo=Postman&logoColor=white) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) 
+[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![postbot](https://img.shields.io/badge/Postbot-9B7EBD.svg?style=for-the-badge&logo=Postman&logoColor=white) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
+![postman-banner](asserts/postman-banner.gif)  
 
 Repository to save my path in learning modules of Self-Study Learning in site [Postman Academy](https://academy.postman.com/).
 
