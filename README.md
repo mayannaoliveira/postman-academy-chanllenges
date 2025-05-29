@@ -95,5 +95,5 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
 ## Postman Certificates
 
 <p align="left">
-    <a href="default.asp"> <img alt="certifed1" src="/badges/certifed1.png" width="500px"/> </a>
+    <a href="/badges/certifed1.png"> <img alt="certifed1" src="/badges/certifed1.png"/> </a>
 </p>
