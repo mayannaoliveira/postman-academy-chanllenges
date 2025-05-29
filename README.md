@@ -88,12 +88,28 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
 ## Postman Badges
 
 <p align="left">
+  <a href="https://api.badgr.io/public/collections/3daf805234a34771bcb754fcee8091a5"> 
     <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px" alt="badge1"/>
     <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px" alt="badge2"/>
+    </a>
 </p>
  
 ## Postman Certificates
 
 <p align="left">
-    <a href="/badges/certifed1.png"> <img alt="certifed1" src="/badges/certifed1.png"/> </a>
+    <a href="/badges/certified1.png"> 
+      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+    </a>
+  <a href="/badges/certified2.png"> 
+      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+    </a>
+  <a href="/badges/certified3.png"> 
+      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+    </a>
+  <a href="/badges/certified4.png"> 
+      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+    </a>
+  <a href="/badges/certified5.png"> 
+      <img alt="certifed1" src="/badges/certified1.png" width="300px"/> 
+    </a>
 </p>
