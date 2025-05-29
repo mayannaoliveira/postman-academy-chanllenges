@@ -11,6 +11,7 @@ Repository to save my path in learning modules of Self-Study Learning in site [
   - [Weather API  : GET weekly weather Visualizations](#weather-api-get-weekly-weather-visualizations)
 - [API authentication and authorization](#api-authentication-and-authorization)
 - [Postman Badges](#postman-badges)
+- [Postman Certificates](#postman-certificates)
 
 <!-- TOC -->
  
@@ -87,10 +88,12 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
 ## Postman Badges
 
 <p align="left">
-    <a href="https://discordapp.com/users/728043170226503721">
-    <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px"/>
-    <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px"/>
-  <img alt="certifed1" src="/badges/certifed1.png" width="100px"/>
-    </a>
+    <img alt="badge1" src="/badges/assertion-E8dxLumrS-aYAAjjPT4_JQ.svg" width="100px" alt="badge1"/>
+    <img alt="badge2" src="/badges/assertion-S1N-crKNQf-8iuF5BLU66w.png" width="100px" alt="badge2"/>
 </p>
  
+## Postman Certificates
+
+<p align="left">
+    <a href="default.asp"> <img alt="certifed1" src="/badges/certifed1.png" width="500px"/> </a>
+</p>
