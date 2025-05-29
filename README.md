@@ -15,7 +15,6 @@ Repository to save my path in learning modules of Self-Study Learning in site [
 - [10 Postman Missions for Collaboration](#10-postman-missions-for-collaboration)
   - [Mission 01: Workspaces and forking](#mission-01--workspaces-and-forking)
   - [Mission 02: Requests, collections and environments](#mission-02--requests--collections-and-environments)
-  - [Requests, collections, and environments](#requests--collections--and-environments)
   - [Mission 03: Variables and authorization](#mission-03--variables-and-authorization)
   - [Mission 04: Tests and debugging](#mission-04--tests-and-debugging)
   - [Mission 05: Scripting](#mission-05--scripting)
