@@ -1,6 +1,6 @@
 ## List of Contributors
-[Mayana Oliveira](https://github.com/mayannaoliveira)
-<!-- [Mayana Oliveira](https://github.com/mayannaoliveira) --->
+- [Mayana Oliveira](https://github.com/mayannaoliveira)
+<!-- - [Mayana Oliveira](https://github.com/mayannaoliveira) --->
 
 ## Code of Conduct
 
