@@ -107,9 +107,9 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
       <img alt="certifed1" src="/badges/certified3.png" width="300px"/> 
     </a>
   <a href="/badges/certified4.png"> 
-      <img alt="certifed1" src="/badges/certified4.png" width="300px"/> 
+      <img alt="certifed4" src="/badges/certified4.png" width="300px"/> 
     </a>
   <a href="/badges/certified5.png"> 
-      <img alt="certifed1" src="/badges/certified5.png" width="300px"/> 
+      <img alt="certifed5" src="/badges/certified5.png" width="300px"/> 
     </a>
 </p>
