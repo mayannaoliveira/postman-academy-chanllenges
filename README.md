@@ -1,5 +1,6 @@
-[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![postbot](https://img.shields.io/badge/Postbot-9B7EBD.svg?style=for-the-badge&logo=Postman&logoColor=white) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
 ![postman-banner](asserts/postman-banner.gif)  
+
+[![postman-academy](https://img.shields.io/badge/Postman-Academy-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)](https://academy.postman.com/) ![postbot](https://img.shields.io/badge/Postbot-9B7EBD.svg?style=for-the-badge&logo=Postman&logoColor=white) ![json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
 
 Repository to save my path in learning modules of Self-Study Learning in site [Postman Academy](https://academy.postman.com/).
 
@@ -13,6 +14,7 @@ Repository to save my path in learning modules of Self-Study Learning in site [
 - [API authentication and authorization](#api-authentication-and-authorization)
 - [Postman Badges](#postman-badges)
 - [Postman Certificates](#postman-certificates)
+- [Contributors](#contributors)
 
 <!-- TOC -->
  
@@ -114,3 +116,15 @@ Saved file: [![Postman-Payment-API](https://img.shields.io/badge/Postman-Payment
       <img alt="certifed5" src="/badges/certified5.png" width="300px"/> 
     </a>
 </p>
+
+##### Contributors
+
+<!-- Link to generate contributors: https://hub-io-mcells-projects.vercel.app/ --->
+<table>
+  <tbody>
+    <tr><td align="center" valign="top" width="12.5%" style="word-break: break-word; white-space: normal;"><a href="https://github.com/mayannaoliveira" title="mayannaoliveira"><img src="https://avatars.githubusercontent.com/u/8138985?v=4" width="100px;" alt="mayannaoliveira" style="border-radius: 9999px;" /></a></td>
+    </tr>
+  </tbody>
+</table>
+
+Please, check in [contributors.md](/contributors.md) before fork this respository.
