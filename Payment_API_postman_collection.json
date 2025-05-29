@@ -1,0 +1,655 @@
+{
+	"info": {
+		"_postman_id": "6a3e8cbc-801f-4954-8278-1b5505679824",
+		"name": "Payment API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17473500"
+	},
+	"item": [
+		{
+			"name": "v1",
+			"item": [
+				{
+					"name": "payment",
+					"item": [
+						{
+							"name": "card",
+							"item": [
+								{
+									"name": "{cardId}",
+									"item": [
+										{
+											"name": "Retrieve a credit card by its ID.",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"card",
+														":cardId"
+													],
+													"variable": [
+														{
+															"key": "cardId",
+															"value": "9844368c-3e89-f590-5cda-aabfc23a75fb",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Credit card details retrieved successfully",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "application/json"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}"
+												},
+												{
+													"name": "Credit card not found",
+													"originalRequest": {
+														"method": "GET",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "Not Found",
+													"code": 404,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										},
+										{
+											"name": "Update an existing credit card",
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"card",
+														":cardId"
+													],
+													"variable": [
+														{
+															"key": "cardId",
+															"value": "9844368c-3e89-f590-5cda-aabfc23a75fb",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Credit card updated successfully.",
+													"originalRequest": {
+														"method": "PUT",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												},
+												{
+													"name": "Bad request.",
+													"originalRequest": {
+														"method": "PUT",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}",
+															"options": {
+																"raw": {
+																	"headerFamily": "json",
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										},
+										{
+											"name": "Remove a credit card",
+											"request": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"card",
+														":cardId"
+													],
+													"variable": [
+														{
+															"key": "cardId",
+															"value": "9844368c-3e89-f590-5cda-aabfc23a75fb",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Credit card removed successfully",
+													"originalRequest": {
+														"method": "DELETE",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "No Content",
+													"code": 204,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												},
+												{
+													"name": "Credit card not found.",
+													"originalRequest": {
+														"method": "DELETE",
+														"header": [],
+														"url": {
+															"raw": "{{baseUrl}}/v1/payment/card/:cardId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"v1",
+																"payment",
+																"card",
+																":cardId"
+															],
+															"variable": [
+																{
+																	"key": "cardId"
+																}
+															]
+														}
+													},
+													"status": "Not Found",
+													"code": 404,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Add a new credit card",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{token}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/v1/payment/card",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"v1",
+												"payment",
+												"card"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Credit card added successfully.",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/card",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"card"
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Bad request.",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"cardId\": \"urn:uuid:6ccdfbd5-9da1-39f6-0e98-f6214329439e\",\n  \"cardNumber\": \"Excepteur\",\n  \"expiryDate\": \"1986-09-10\",\n  \"nameOnCard\": \"irure do pariatur nisi\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/card",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"card"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "submit",
+							"item": [
+								{
+									"name": "Make a payment",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"paymentId\": \"urn:uuid:03cd5b9c-df2c-9510-c644-6f22fd70ceab\",\n  \"amount\": -4520042.962728262,\n  \"date\": \"1981-07-30T13:31:53.367Z\",\n  \"cardId\": \"6255f10f-a6d8-bf84-8f5a-03a02c90937f\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/v1/payment/submit",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"v1",
+												"payment",
+												"submit"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Payment made successfully.",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"paymentId\": \"urn:uuid:03cd5b9c-df2c-9510-c644-6f22fd70ceab\",\n  \"amount\": -4520042.962728262,\n  \"date\": \"1981-07-30T13:31:53.367Z\",\n  \"cardId\": \"6255f10f-a6d8-bf84-8f5a-03a02c90937f\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/submit",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"submit"
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Bad request.",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"paymentId\": \"urn:uuid:03cd5b9c-df2c-9510-c644-6f22fd70ceab\",\n  \"amount\": -4520042.962728262,\n  \"date\": \"1981-07-30T13:31:53.367Z\",\n  \"cardId\": \"6255f10f-a6d8-bf84-8f5a-03a02c90937f\"\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/submit",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"submit"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "history",
+							"item": [
+								{
+									"name": "Get payment history",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/v1/payment/history",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"v1",
+												"payment",
+												"history"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Payment history retrieved successfully",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/v1/payment/history",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"v1",
+														"payment",
+														"history"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "[\n  {\n    \"paymentId\": \"urn:uuid:38470bf4-1836-0d50-ecb0-6719faa3deb8\",\n    \"amount\": -89689873.32815818,\n    \"date\": \"1991-09-05T09:57:58.543Z\",\n    \"cardId\": \"urn:uuid:86d781ee-d55f-9690-951e-e4a8ab3a0aaa\"\n  },\n  {\n    \"paymentId\": \"urn:uuid:e5a7e485-e45f-3487-c9d0-0f410d5af758\",\n    \"amount\": 79729967.94973874,\n    \"date\": \"1999-06-10T20:17:01.314Z\",\n    \"cardId\": \"urn:uuid:54498380-2e24-0698-b581-672d8afaeba1\"\n  }\n]"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
